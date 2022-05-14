@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+}
+
+.background {
+  background: rgba(54, 53, 53, 0.7) url(/BG.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  cursor: pointer;
+  top: 0;
+  background-color: rgb(32, 31, 31);
+}
+
+/* Navigation Left */
+
+.navleft {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.navleft li {
+  list-style: none;
+  padding: 10px;
+}
+
+.navleft li a {
+  text-decoration: none;
+  padding: 12px;
+  color: rgb(247, 231, 231);
+  font-weight: bolder;
+}
+
+.navleft li a:hover {
+    color: black;
+    background-color: white;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 30%;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+/* Navigation Right */
+
+.navright {
+  width: 30%;
+  text-align: end;
+  padding: 20px;
+}
+
+#searchnav {
+  padding: 2px 10px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 5px;
+}
+.navrightbtn {
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: bolder;
+  background: none;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.navrightbtn:hover {
+    color: black;
+    background-color: white;
+  
+}
+
+.burger-res{
+top: 15px;
+right: 5%;
+position: absolute;
+cursor: pointer;
+display: none;
+}
+
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 4px 2px;
+}
+
+/* Mainbox Section */
+
+#MainBox {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.leftbox {
+  text-align: center;
+  width: 70%;
+}
+
+.rightbox {
+  width: 20%;
+}
+
+.sectionimage {
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+.firstheading {
+  font-size: 2rem;
+  padding: 10px;
+  /* text-decoration: underline; */
+}
+
+.fisrtparagraph {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.subscribebtn {
+  padding: 6px;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  border-color: white;
+}
+
+.subscribebtn:hover {
+  color: black;
+  background-color: white;
+}
+/* Secondbox Section */
+#secondbox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    height: 130vh;
+}
+
+.secondbox
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    }
+
+.leftsection1{
+    width: 50%;
+    text-align: center;
+}
+
+.rightsection1{
+    width: 50%;
+    text-align: center;
+    
+}
+.sectionimage1{
+    width: 80%;
+    border: 2px solid rgb(236, 234, 229);
+    border-radius: 100px;
+}
+.Secondheading{
+    font-size: 2rem;
+  margin: 50px;
+}
+
+.thirdheading{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.secondparagraph{
+    font-size: 1.1rem;
+}
+
+.thirdbox
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    }
+
+    .leftsection2{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .rightsection2{
+        width: 50%;
+        text-align: center;
+        
+    }
+    .sectionimage2{
+        width: 85%;
+        border: 2px solid rgb(236, 234, 229);
+        border-radius: 100px;
+    }
+
+
+.forthbox
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    }
+
+.leftsection3{
+    width: 50%;
+    text-align: center;
+}
+
+.rightsection3{
+    width: 50%;
+    text-align: center;
+    
+}
+.sectionimage3{
+    width: 80%;
+    border: 2px solid rgb(236, 234, 229);
+    border-radius: 100px;
+}
+
+/* Learn */
+
+#learn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    background: rgb(253, 251, 251);
+    height: 50vh;
+}
+.learn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 85%;
+}
+.learndeep1{
+    text-align: center;
+    padding: 15px;
+}
+.learndeep2{
+    text-align: center;
+    padding: 15px;
+}
+
+.learndeep3{
+    text-align: center;
+    padding: 15px;
+}
+
+.learndeep4{
+    text-align: center;
+    padding: 15px;
+}
+.learnpic
+{
+    width: 30%;
+}
+.learnpic1{
+    width: 20%;
+}
+
+/* Clients */
+
+#clients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.clientbackground
+{
+    background: rgba(255, 254, 254, 0.7) url(/beatriz-perez-moya-XN4T2PVUUgk-unsplash.jpg);
+    background-blend-mode:screen;
+}
+.clients
+{
+   max-width: 70%;
+   text-align: center;
+}
+
+.ourclients{
+    width: 10%;
+    padding: 20px;
+    margin: 10px;
+}
+.clients img{
+    border-radius: 80px;
+}
+
+/* Conatct */
+#contact
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  background: rgb(253, 251, 247);
+  height: 85vh;
+}
+
+.contactus{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.contactform input, textarea, label{
+  width: 60%;
+  padding: 8px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  text-align: start;
+ 
+  
+}
+.contactform button{
+width: 100px;
+padding: 8px;
+border-radius: 10px;
+margin: 10px;
+background-color: rgb(0, 0, 0, 0.8);
+color: white;
+cursor: pointer;
+}
+  
+.contactform{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contactform button:hover {
+  color: black;
+  background-color: white;
+}
+ 
+ .footer
+ {
+   background-color: black;
+   height: 5vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   
+ }
+ footer
+ {
+  color: white;
+  text-align: center;
+  height: 2.5vh;
+  width: auto;
+ }
+
+

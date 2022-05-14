@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1146px) {
+
+    /* Navigation bar */
+    .navbar {
+      
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      height: 60px;
+  
+      
+  }
+  
+  .navleft {
+    
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .navright{
+    text-align: center;
+    width: 100%;
+    
+  
+  }
+  .navrightbtn {
+    width:15%;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Mainbox section */
+  #MainBox {
+    height: 120vh;
+    flex-direction: column;
+  }
+  
+  .rightbox
+  {
+    display: none;
+  }
+  
+  /* Learn */
+  #learn
+  {
+    height: 210vh;
+  }
+  
+  .learn{
+    flex-direction: column;
+  }
+  
+  /* Secondbox */
+  #secondbox{
+    height: 280vh;
+  }
+  
+  /* Client */
+  #clients{ height:50vh;
+  
+  }
+  
+  /* Contacts */
+  #contact
+  {
+    height: 130vh;
+    justify-content: flex-start;
+  }
+  .contactform input, textarea, label{
+    width: 100%;
+    padding: 4px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-align: start;
+   }
+  
+   /* Footer */
+  footer
+  {
+    font-size: 0.6rem;
+  }
+  /* Essentials */
+   .thirdheading
+   {
+     font-size: 1.4rem;
+     margin-top: 10px;;
+   }
+   .Secondheading
+  {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .firstheading{
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .burger-res{
+    display: block;
+  }
+  
+  .h-nav-res
+  {
+    height: 360px;
+  }
+  
+  .v-nav-res{
+    opacity: 0;
+  }
+  }
